@@ -1,0 +1,20 @@
+[
+    { 
+        "title": "Ethan says what?",
+        "date": "2025-09-10",
+        "contentHtml": "<p>I don't know about you but <strong>I like</strong> Next.js quite a bit.</p><p>Except, perhaps, for the thousands of files living in the node_modules folder.</p>",
+        "id": 1
+    },
+    { 
+        "title": "Two Forms of Pre-rendering",
+        "date": "2022-01-01",
+        "contentHtml": "<p>Next.js has two forms of pre-rendering: <strong>Static Generation</strong> and <strong>Server-side Rendering</strong>. The difference is in <strong>when</strong> it generates the HTML for a page.</p>",
+        "id": 2
+    },
+    { 
+        "title": "When to Use Static Generation v.s. Server-side Rendering",
+        "date": "2022-01-02",
+        "contentHtml": "<p>We recommend using <strong>Static Generation</strong> (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.</p>",
+        "id": 3
+    }
+]
