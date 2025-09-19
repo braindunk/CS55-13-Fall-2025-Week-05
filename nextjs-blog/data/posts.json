@@ -1,6 +1,6 @@
 [
     { 
-        "title": "Ethan says what?",
+        "title": "JSON says what?",
         "date": "2025-09-10",
         "contentHtml": "<p>I don't know about you but <strong>I like</strong> Next.js quite a bit.</p><p>Except, perhaps, for the thousands of files living in the node_modules folder.</p>",
         "id": 1

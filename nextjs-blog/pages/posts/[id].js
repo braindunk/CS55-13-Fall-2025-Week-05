@@ -1,5 +1,5 @@
 import Layout from '../../components/layout';
-import { getAllPostIds, getPostData } from '../../lib/posts';
+import { getAllPostIds, getPostData } from '../../lib/posts-json'; // Changed from posts.js to posts-json.js
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
@@ -23,6 +23,7 @@ export default function Post({ postData }) {
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
+  // console.log(paths);
   return {
     paths,
     fallback: false,
@@ -31,6 +32,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
+  // console.log(postData);
   return {
     props: {
       postData,

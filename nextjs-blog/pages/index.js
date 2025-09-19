@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import { getSortedPostsData } from '../lib/posts';
+import { getSortedPostsData } from '../lib/posts-json'; // Changed from posts.js to posts-json.js
 import Link from 'next/link';
 import Date from '../components/date';
 
